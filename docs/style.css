@@ -50,7 +50,6 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 100vh;
   font-family: var(--font-family);
 }
 
@@ -83,7 +82,6 @@ body {
   .n-home-news-section {
     display: flex;
     justify-content: center;
-
     width: 100%;
   }
 
@@ -92,7 +90,6 @@ body {
     grid-template-areas:
       "left left"
       "right right";
-    height: 100%;
     width: 90%;
     gap: 64px 0px;
   }
@@ -105,12 +102,13 @@ body {
     grid-template-areas:
       "image image image"
       "content content content";
-    gap: 28px 0;
-    height: 100%;
+    gap: 24px 0;
+    height: 840px;
   }
 
   .n-mobile-img {
     grid-area: image;
+    height: 100%;
     width: 100%;
   }
 
@@ -122,14 +120,14 @@ body {
     display: grid;
     grid-area: content;
     grid-template-columns: auto;
-    grid-template-rows: 220px 176px;
+    grid-template-rows: auto auto;
   }
 
   .n-container-bottom-item {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: start;
+    gap: 24px;
   }
 
   /* container right */
@@ -140,8 +138,24 @@ body {
     justify-content: space-around;
     align-items: start;
     grid-area: right;
-    height: 489px;
+    height: 520px;
+    width: 100%;
   }
+
+  .n-container-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    grid-area: right;
+    height: 100%;
+    width: 90%;
+  }
+
+.n-container-list-item {
+  width: 100%;
+  padding-bottom: 29px;
+}
 
   .n-container-right a:hover {
     color: var(--yellow);
@@ -155,6 +169,7 @@ body {
     gap: 33px;
     align-items: center;
     width: 90%;
+    padding-bottom: 100px;
   }
 
   .n-row-container-item {
@@ -179,6 +194,10 @@ body {
 }
 
 @media screen and (min-width: 576px) /* SM */ {
+  .n-container-bottom {
+    grid-template-rows: auto 50%;
+    gap: 16px 0px;
+  }
 }
 
 @media screen and (min-width: 768px) /* MD */ {
@@ -215,7 +234,7 @@ body {
   .n-home-news-section {
     display: flex;
     justify-content: center;
-
+    height: 100%;
     width: 100%;
   }
 
