@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+:root {
+  /* colors  */
+
+  --almost-white: #fffdfa;
+  --dark-space-blue: #00001a;
+  --gunmetal: #5e607a;
+  --light-vermillion: #f15d51;
+  --silver: #c5c6ce;
+  --yellow: #e9aa52;
+
+  /* fonts  */
+
+  --font-family: "Inter", sans-serif;
+
+  /* Silver */
+  color: #c5c6ce;
+
+  --heading-XL: 56px;
+  --weight-XL: 800;
+
+  --heading-L: 40px;
+  --weight-L: 700;
+
+  --heading-M: 32px;
+  --weight-M: 700;
+
+  --heading-S: 20px;
+  --weight-S: 800;
+
+  --heading-XS: 18px;
+  --weight-XS: 800;
+
+  --body: 15px;
+  --weight-body: 400;
+  --line-height-body: 26px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  width: 100%;
+  font-family: var(--font-family);
+}
+
+/*#region UTILITY*/
+
+a {
+  text-decoration: none;
+}
+
+/* Texts */
+
+.n-title-XL {
+  font-size: var(--heading-XL);
+  font-weight: var(--weight-XL);
+}
+
+.n-title-S {
+  font-size: var(--heading-S);
+  font-weight: var(--weight-S);
+  line-height: 26px;
+}
+
+.n-title-L {
+  font-size: var(--heading-L);
+  font-weight: var(--weight-L);
+}
+
+.n-title-XS {
+  font-size: var(--heading-XS);
+  font-weight: var(--weight-XS);
+}
+
+.n-text-body {
+  font-size: var(--body);
+  font-weight: var(--weight-body);
+  line-height: var(--line-height-body);
+}
+
+/* Colors */
+.n-text-almost-white {
+  color: var(--almost-white);
+}
+.n-text-dark-space-blue {
+  color: var(--dark-space-blue);
+}
+.n-text-gunmetal {
+  color: var(--gunmetal);
+}
+.n-text-light-vermillion {
+  color: var(--light-vermillion);
+}
+.n-text-silver {
+  color: var(--silver);
+}
+.n-text-yellow {
+  color: var(--yellow);
+}
+
+/* HOVER */
+
+.n-text-almost-white:hover {
+  color: var(--yellow);
+}
+
+.n-text-dark-space-blue:hover {
+  color: var(--light-vermillion);
+}
+
+.n-text-gunmetal:hover {
+  color: var(--light-vermillion);
+}
+
+/* Background  */
+
+.n-bg-almost-white {
+  background-color: var(--almost-white);
+}
+
+.n-bg-dark-space-blue {
+  background-color: var(--dark-space-blue);
+}
+
+/* Margin */
+
+.n-margin-top-8 {
+  margin-top: 8px;
+}
+.n-margin-bottom-8 {
+  margin-bottom: 8px;
+}
+.n-margin-right-8 {
+  margin-right: 8px;
+}
+.n-margin-left-8 {
+  margin-left: 8px;
+}
+
+.n-margin-top-24 {
+  margin-top: 24px;
+}
+.n-margin-bottom-24 {
+  margin-bottom: 24px;
+}
+.n-margin-right-24 {
+  margin-right: 24px;
+}
+.n-margin-left-24 {
+  margin-left: 24px;
+}
+
+.n-margin-top-40 {
+  margin-top: 40px;
+}
+.n-margin-bottom-40 {
+  margin-bottom: 40px;
+}
+.n-margin-right-40 {
+  margin-right: 40px;
+}
+.n-margin-left-40 {
+  margin-left: 40px;
+}
+
+.n-margin-top-55 {
+  margin-top: 55px;
+}
+.n-margin-bottom-55 {
+  margin-bottom: 55px;
+}
+.n-margin-right-55 {
+  margin-right: 55px;
+}
+.n-margin-left-55 {
+  margin-left: 55px;
+}
+
+.n-margin-top-71 {
+  margin-top: 71px;
+}
+.n-margin-bottom-71 {
+  margin-bottom: 71px;
+}
+.n-margin-right-71 {
+  margin-right: 71px;
+}
+.n-margin-left-71 {
+  margin-left: 71px;
+}
+
+.n-margin-top-89 {
+  margin-top: 89px;
+}
+.n-margin-bottom-89 {
+  margin-bottom: 89px;
+}
+.n-margin-right-89 {
+  margin-right: 89px;
+}
+.n-margin-left-89 {
+  margin-left: 89px;
+}
+
+.n-margin-top-129 {
+  margin-top: 129px;
+}
+.n-margin-bottom-129 {
+  margin-bottom: 129px;
+}
+.n-margin-right-129 {
+  margin-right: 129px;
+}
+.n-margin-left-129 {
+  margin-left: 129px;
+}
+
+/* padding */
+
+.n-padding-top-24 {
+  padding-top: 24px;
+}
+.n-padding-bottom-24 {
+  padding-bottom: 24px;
+}
+.n-padding-right-24 {
+  padding-right: 24px;
+}
+.n-padding-left-24 {
+  padding-left: 24px;
+}
+
+/* Borders */
+
+.n-border-bottom {
+  border-bottom: 1px solid var(--silver);
+}
+
+/* Buttons  */
+
+.n-button {
+  padding: 13px 35px 11px 31px;
+
+  font-weight: var(--weight-L);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 4.375px;
+
+  text-transform: uppercase;
+
+  color: var(--almost-white);
+  background-color: var(--light-vermillion);
+
+  border: none;
+}
+.n-button:hover {
+  cursor: pointer;
+}
+
+.n-button:active {
+  background-color: var(--dark-space-blue);
+}
+
+/*#endregion */
