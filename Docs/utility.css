@@ -5,6 +5,8 @@
 
   --almost-white: #fffdfa;
   --dark-space-blue: #00001a;
+  --dark-space-blue-50: #00001a50;
+
   --gunmetal: #5e607a;
   --light-vermillion: #f15d51;
   --silver: #c5c6ce;
@@ -57,6 +59,12 @@ a {
 }
 
 /* Texts */
+
+.n-title-modal {
+  font-size: 18;
+  font-weight: 400;
+  line-height: 24px;
+}
 
 .n-title-XL {
   font-size: var(--heading-XL);
@@ -127,6 +135,10 @@ a {
 
 .n-bg-dark-space-blue {
   background-color: var(--dark-space-blue);
+}
+
+.n-bg-modal {
+  background-color: var(--dark-space-blue-50);
 }
 
 /* Margin */
