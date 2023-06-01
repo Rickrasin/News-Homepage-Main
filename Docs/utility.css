@@ -117,14 +117,17 @@ a {
 
 .n-text-almost-white:hover {
   color: var(--yellow);
+  transition-duration: 0.3s;
 }
 
 .n-text-dark-space-blue:hover {
   color: var(--light-vermillion);
+  transition-duration: 0.3s;
 }
 
 .n-text-gunmetal:hover {
   color: var(--light-vermillion);
+  transition-duration: 0.3s;
 }
 
 /* Background  */
@@ -140,6 +143,34 @@ a {
 .n-bg-modal {
   background-color: var(--dark-space-blue-50);
 }
+
+/* Buttons  */
+
+.n-button {
+  padding: 13px 35px 11px 31px;
+
+  font-weight: var(--weight-L);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 4.375px;
+
+  text-transform: uppercase;
+
+  color: var(--almost-white);
+  background-color: var(--light-vermillion);
+
+  border: none;
+}
+.n-button:hover {
+  cursor: pointer;
+}
+
+.n-button:active {
+  background-color: var(--dark-space-blue);
+  transition-duration: 0.3s;
+}
+
+/*#endregion */
 
 /* Margin */
 
@@ -254,30 +285,3 @@ a {
 .n-border-bottom {
   border-bottom: 1px solid var(--silver);
 }
-
-/* Buttons  */
-
-.n-button {
-  padding: 13px 35px 11px 31px;
-
-  font-weight: var(--weight-L);
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 4.375px;
-
-  text-transform: uppercase;
-
-  color: var(--almost-white);
-  background-color: var(--light-vermillion);
-
-  border: none;
-}
-.n-button:hover {
-  cursor: pointer;
-}
-
-.n-button:active {
-  background-color: var(--dark-space-blue);
-}
-
-/*#endregion */
