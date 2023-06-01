@@ -82,8 +82,6 @@
   outline: none;
 }
 
-
-
 .n-home-news-section {
   width: 100%;
   grid-area: Home;
@@ -219,7 +217,7 @@
     display: none;
   }
 
-  .is-active {
+  .n-menu-modal {
     display: none;
   }
 
