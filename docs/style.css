@@ -219,6 +219,10 @@
     display: none;
   }
 
+  .is-active {
+    display: none;
+  }
+
   .n-home-news-section {
     grid-template-areas: "left left left left left right right right";
   }
