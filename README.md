@@ -33,7 +33,10 @@ Users should be able to:
 
 ## My process
 
-  
+First I had made this page using flex and box, but after having done it and I got a little confused in the responsiveness, having seen that the code was too long. I noticed that the entire site could use the CSS grid layout.
+
+So, after that I deleted all the positioning scripts and redid them using the Grid Layout, and it worked.
+I confess that I did not think I was capable of such a feat. I'm proud of my result.
 
 ### Built with
 
@@ -44,7 +47,7 @@ Users should be able to:
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Now I'm going to try to make some more complex and bigger pages. As soon as I finish them, I'll go after mastering the use of ReactJS and the API's.
 
 ## Author
 
