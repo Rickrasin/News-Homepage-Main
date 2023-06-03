@@ -52,5 +52,5 @@ Now I'm going to try to make some more complex and bigger pages. As soon as I fi
 ## Author
 
 - Website - [Rickras](https://github.com/Rickrasin/Rickrasin)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Rickrasin)
-- Twitter - [@yourusername](https://www.twitter.com/ricksoninho)
+- Frontend Mentor - [@Rickrasin](https://www.frontendmentor.io/profile/Rickrasin)
+- Twitter - [@ricksoninho](https://www.twitter.com/ricksoninho)
