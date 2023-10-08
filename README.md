@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl/hub)
-- Live Site URL: (https://rickrasin.github.io/News-Homepage-Main/)
+- Solution URL: https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl/hub
+- Live Site URL: https://rickrasin.github.io/News-Homepage-Main/
 
 ## My process
 
